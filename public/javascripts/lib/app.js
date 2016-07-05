@@ -70,6 +70,8 @@
 
 	console.timeEnd('hello world');
 
+	console.info('info');
+
 /***/ },
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
