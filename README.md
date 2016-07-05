@@ -1,12 +1,15 @@
 # react-workshop
 
 ## usage
+```console
 $ npm install
 $ jest
 $ webpack
 $ npm start
+```
 
 ## log
+```console
 $ vim .gitignore ### ignore: compiled javascript files
 $ mkdir public src __tests__
 $ mkdir public/javascripts public/javascripts/lib
@@ -43,6 +46,7 @@ $ vim __tests__/sum-test.js
 $ vim __tests__/CheckboxWithLabel-test.js
 $ jest
 $ npm test
+```
 
 ## checklist
 * test React.js
@@ -55,6 +59,6 @@ $ npm test
     - [ ] flow
 
 * test gh
-    - [ ] GFM
+    - [x] GFM
     - [ ] BTS
 
