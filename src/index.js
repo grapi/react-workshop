@@ -14,7 +14,7 @@ var example2_mountNode = document.getElementById('example2');
 ReactDOM.render(<HelloMessage name="PLAT" />, example1_mountNode);
 ReactDOM.render(<CheckboxWithLabel labelOn="On" labelOff="Off" />, example2_mountNode);
 
-console.log('1 + 2 = ' + sum(1, 2));
+console.log('100 + 1 = ' + sum(100, 1));
 
 console.timeEnd('hello world');
 
