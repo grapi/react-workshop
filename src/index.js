@@ -19,4 +19,6 @@ console.log('100 + 1 = ' + sum(100, 1));
 console.timeEnd('hello world');
 
 console.info('info');
+console.warn('warn');
+console.error('error');
 
