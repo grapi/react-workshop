@@ -1,5 +1,6 @@
 console.time('hello world');
 
+
 const React = require('react');
 const ReactDOM = require('react-dom');
 
@@ -16,9 +17,11 @@ ReactDOM.render(<CheckboxWithLabel labelOn="On" labelOff="Off" />, example2_moun
 
 console.log('100 + 1 = ' + sum(100, 1));
 
+
 console.info('info');
 console.warn('warn');
 console.error('error');
+
 
 console.timeEnd('hello world');
 

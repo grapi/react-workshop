@@ -6,6 +6,7 @@ $ npm install
 $ jest
 $ webpack
 $ npm start
+$ open http://localhost:3000
 ```
 
 ## log
@@ -13,9 +14,9 @@ $ npm start
 $ vim .gitignore ### ignore: compiled javascript files
 $ mkdir public src __tests__
 $ mkdir public/javascripts public/javascripts/lib
-$ mkdir public/images public/stylesheets
+$ mkdir public/images public/stylesheets ### optional
 
-$ npm ls --global --depth=0 ### check: webpack and jest-cli
+$ npm ls --global --depth=0 ### check: jest-cli and webpack
 
 $ npm init
 
@@ -30,6 +31,12 @@ $ vim public/index.html
 $ vim package.json ### make "start" script: "node test-server.js"
 $ npm start
 
+$ npm install --save-dev jest-cli babel-jest babel-polyfill react-addons-test-utils
+$ vim package.json ### jest section
+$ vim __tests__/sum-test.js
+$ vim __tests__/CheckboxWithLabel-test.js
+$ jest
+
 $ vim src/index.js
 $ vim src/sum.js
 $ vim src/HelloMessage.js
@@ -37,15 +44,7 @@ $ vim src/CheckboxWithLabel.js
 $ vim webpack.config.js
 $ vim .babelrc
 $ webpack
-$ ls -al public/javascripts/lib/
 $ cat public/javascripts/lib/app.js
-
-$ npm install --save-dev jest-cli babel-jest babel-polyfill react-addons-test-utils
-$ vim package.json ### make "test" script: "jest" and add "jest" section
-$ vim __tests__/sum-test.js
-$ vim __tests__/CheckboxWithLabel-test.js
-$ jest
-$ npm test
 ```
 
 ## checklist
