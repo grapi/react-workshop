@@ -1,0 +1,25 @@
+{
+  "name": "react-workshop",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "test-server.js",
+  "scripts": {
+    "start": "node test-server.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/platworkshop/react-workshop.git"
+  },
+  "keywords": [
+    "react",
+    "node",
+    "github"
+  ],
+  "author": "platworkshop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/platworkshop/react-workshop/issues"
+  },
+  "homepage": "https://github.com/platworkshop/react-workshop#readme"
+}
