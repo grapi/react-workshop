@@ -52,6 +52,8 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	console.time('hello world');
+
 	var React = __webpack_require__(2);
 	var ReactDOM = __webpack_require__(34);
 
@@ -65,6 +67,8 @@
 	ReactDOM.render(React.createElement(_CheckboxWithLabel2.default, { labelOn: 'On', labelOff: 'Off' }), example2_mountNode);
 
 	console.log('1 + 2 = ' + sum(1, 2));
+
+	console.timeEnd('hello world');
 
 /***/ },
 /* 1 */

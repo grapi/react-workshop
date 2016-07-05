@@ -1,3 +1,5 @@
+console.time('hello world');
+
 const React = require('react');
 const ReactDOM = require('react-dom');
 
@@ -13,4 +15,6 @@ ReactDOM.render(<HelloMessage name="PLAT" />, example1_mountNode);
 ReactDOM.render(<CheckboxWithLabel labelOn="On" labelOff="Off" />, example2_mountNode);
 
 console.log('1 + 2 = ' + sum(1, 2));
+
+console.timeEnd('hello world');
 
