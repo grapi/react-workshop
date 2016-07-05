@@ -21077,7 +21077,7 @@
 	        return React.createElement(
 	            'div',
 	            null,
-	            'Hello ',
+	            'hello ',
 	            this.props.name
 	        );
 	    }
