@@ -1,2 +1,1 @@
-console.log('test2'); //fixed #3
-
+console.log('test2');
