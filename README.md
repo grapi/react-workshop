@@ -60,4 +60,3 @@ $ cat public/javascripts/lib/app.js
 * test gh
     - [x] GFM
     - [x] BTS
-
