@@ -55,7 +55,11 @@ $ cat public/javascripts/lib/app.js
     - [x] test server
 
 * test Git
+<<<<<<< HEAD
     - [] flow
+=======
+    - [x] flow
+>>>>>>> f5c238d558f8ab4113094598ef568afbeae5529c
 
 * test gh
     - [x] GFM
