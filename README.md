@@ -1,4 +1,4 @@
-# react-workshop-byjam
+# react-workshop
 
 ## usage
 ```console
