@@ -1,2 +1,1 @@
-console.log('test2_byjam'); //fixed #3
-
+console.log('test2');
